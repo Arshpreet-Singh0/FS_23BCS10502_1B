@@ -1,0 +1,33 @@
+#input {
+    width: 60%;
+    height: 2.5rem;
+    border: 1px solid rgba(121, 21, 170, 0.742);
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+    margin-left: 20%;
+}
+
+input {
+    background-color: transparent;
+    /* border: none; */
+    height: 100%;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-left: 5px;
+    /* box-shadow: 0px 0px 8px #3a3939; */
+}
+
+input:focus {
+    outline: none;
+}
+
+#search-icon {
+    color: royalblue;
+}
+
+#search{
+   background-color: white;
+}
