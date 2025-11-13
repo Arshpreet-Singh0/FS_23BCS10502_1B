@@ -30,7 +30,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {products?.map((product) => (
-          <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:-translate-y-2 bg-card border-0 h-full flex flex-col">
+          <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:-translate-y-2 bg-card border-0 h-full flex flex-col ">
             {/* Product Image */}
             <div className="relative h-64 overflow-hidden bg-muted">
               <img
